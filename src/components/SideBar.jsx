@@ -11,7 +11,9 @@ export default function SideBar() {
     useStateContext();
 
   const handleCloseSideBar = () => {
-    if (activeMenu !== undefined && screenSize <= 900) {
+    if (window.innerWidth > 900) {
+      setActiveMenu(true);
+    } else {
       setActiveMenu(false);
     }
   };

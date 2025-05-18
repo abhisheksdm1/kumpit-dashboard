@@ -12,8 +12,8 @@ export default function Home() {
     <div
       className={
         activeMenu
-          ? "w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white"
-          : "w-0 dark:bg-secondary-dark-bg flex-none"
+          ? "w-72 fixed sidebar min-h-screen dark:bg-secondary-dark-bg bg-white"
+          : "w-0 dark:bg-secondary-dark-bg min-h-screen flex-none"
       }
     >
       <SideBar />

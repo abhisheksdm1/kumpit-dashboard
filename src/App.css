@@ -47,6 +47,6 @@ input[type="range"].no-thumb::-moz-range-thumb {
 }
 @media  screen and (max-width:800px) {
   .sidebar{
-    z-index: 10000000;
+    z-index: 10001;
   }
 }
